@@ -1,9 +1,20 @@
+import Image from "next/image";
+import logo from "../assets/logo.png";
+
 export default function Hero() {
-    return (
-      <section id="home" className="bg-black-600 text-white p-20 text-center">
-        <h2 className="text-4xl font-bold mb-4">Bem-vindo à Comunidade Coding Ferpa</h2>
-        <p className="text-xl mb-8">Conectando jovens talentos com o mundo da tecnologia em Fernandópolis</p>
-      </section>
-    )
-  }
   
+  return (
+    <section
+      id="home"
+      className="bg-black text-white flex flex-col justify-center items-center "
+    >
+      <Image
+        src={logo}
+        alt="Logo da Comunidade Coding Ferpa"
+        width={700}
+        height={700}
+        priority
+      />
+    </section>
+  );
+}

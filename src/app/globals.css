@@ -17,3 +17,6 @@ a {
 main {
   flex: 1; /* Faz o main crescer para ocupar o espaço disponível */
 }
+img {
+  max-width: 100%;
+}
