@@ -4,7 +4,7 @@ import { faSignIn } from "@fortawesome/free-solid-svg-icons";
 
 export default function Header() {
   const handleClick = () => {
-    window.open("https://wa.me/GRUPODOZAP", "_blank");
+    window.open("https://chat.whatsapp.com/KgO1mbD0JFWJk6OWjlNQd2", "_blank");
   };
 
   return (

@@ -1,4 +1,3 @@
-// app/layout.tsx
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Header from '@/app/components/Header'
@@ -14,9 +13,9 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-BR">
-      <body className={inter.className}>
+      <body className={`${inter.className} flex flex-col min-h-screen`}>
         <Header />
-        <main>{children}</main>
+        <main className="flex-grow">{children}</main>
         <Footer />
       </body>
     </html>
