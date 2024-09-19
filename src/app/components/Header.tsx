@@ -9,10 +9,10 @@ export default function Header() {
 
   return (
     <header className="bg-gray-900 text-white p-4">
-      <div className="container mx-auto flex items-center justify-between">
-        <div className="flex items-center space-x-2">
+      <div className="container mx-auto flex flex-col sm:flex-row items-center justify-between">
+        <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-2 mb-4 sm:mb-0">
           <img src="../assets/icon.png" alt="Logo" className="h-14 w-auto" />
-          <span className="border-l border-gray-500 pl-4">
+          <span className="text-center sm:text-left sm:border-l sm:border-gray-500 sm:pl-4">
             Comunidade de tecnologia em Fernandópolis
           </span>
         </div>
