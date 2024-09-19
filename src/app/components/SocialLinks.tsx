@@ -22,7 +22,7 @@ export default function SocialLinks() {
   ];
 
   return (
-    <div className="flex justify-center p-4 space-x-6">
+    <div className="flex justify-center p-4 space-x-4 sm:space-x-6">
       {socialMedia.map((platform) => (
         <a
           key={platform.name}
@@ -31,7 +31,7 @@ export default function SocialLinks() {
           rel="noopener noreferrer"
           className="text-white hover:text-gray-400 transition-colors"
         >
-          <FontAwesomeIcon icon={platform.icon} className="w-12 h-12" />
+          <FontAwesomeIcon icon={platform.icon} className="w-8 h-8 sm:w-12 sm:h-12" />
         </a>
       ))}
     </div>
