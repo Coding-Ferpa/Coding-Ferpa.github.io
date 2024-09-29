@@ -11,7 +11,7 @@ export default function SocialLinks() {
     },
     {
       name: 'Discord',
-      url: 'https://discord.gg/9eNtBtvK',
+      url: 'https://discord.gg/uqyVCgYUTu',
       icon: faDiscord,
     },
     {
