@@ -29,7 +29,7 @@ export default function SocialLinks() {
           href={platform.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-white hover:text-gray-400 transition-colors"
+          className="text-white hover:text-[#4A3D8D] transition-colors"
         >
           <FontAwesomeIcon icon={platform.icon} className="w-8 h-8 sm:w-12 sm:h-12" />
         </a>

@@ -1,4 +1,4 @@
-import logo from "../assets/tropa.jpg";
+import logo from "../assets/tropa.jpeg";
 import Image from "next/image";
 
 export default function About() {

@@ -8,15 +8,14 @@ body {
   font-family: 'Inter', sans-serif;
   background-color: #000000;
 }
-/* Esconde a barra de rolagem no body */
 html, body {
-  overflow: -moz-scrollbars-none; /* Para Firefox */
-  -ms-overflow-style: none;  /* Para Internet Explorer e Edge */
-  scrollbar-width: none; /* Para Firefox */
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
 }
 
 body::-webkit-scrollbar {
-  display: none;  /* Para navegadores baseados em WebKit como Chrome e Safari */
+  display: none; 
 }
 
 
@@ -26,7 +25,7 @@ a {
 }
 
 main {
-  flex: 1; /* Faz o main crescer para ocupar o espaço disponível */
+  flex: 1; 
 }
 img {
   max-width: 100%;
