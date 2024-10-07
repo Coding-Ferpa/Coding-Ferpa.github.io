@@ -5,17 +5,17 @@ export default function About() {
   return (
     <section id="about" className="py-20 pb-0 bg-black">
       <div className="container mx-auto flex flex-col md:flex-row items-center">
-        <div className="md:w-1/2 w-full">
+        <div className="lg:w-2/3 sm:w-1/2">
           <Image
             src={logo}
             alt="Comunidade Coding Ferpa"
-            className="rounded-lg shadow-lg"
+            className="w-full rounded-lg shadow-lg"
             layout="responsive"
             width={500} 
             height={500}
           />
         </div>
-        <div className="md:w-1/2 w-full md:pl-12 mt-8 md:mt-0 text-left">
+        <div className="md:w-1/2 w-full md:pl-12 mt-8 md:mt-0 text-left ml-4 md:ml-0">
           <h2 className="text-4xl font-bold text-white mb-4 uppercase">
             Quem Somos
           </h2>
@@ -26,7 +26,7 @@ export default function About() {
           <p className="text-lg text-white">
             Valorizamos o poder das comunidades e acreditamos que, juntos,
             podemos ir mais longe.
-            <span className="font-bold text-[#51cf91]">
+            <span className="font-bold text-main-50">
               {" "} Cada pessoa tem algo a oferecer e a ganhar, e essa troca é o que
               nos move.
             </span>

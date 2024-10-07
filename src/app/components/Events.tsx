@@ -4,7 +4,7 @@ import icon from "../assets/icon.png";
 export default function Events() {
   return (
     <section id="events" className="bg-black">
-      <div className="container mx-auto flex flex-col md:flex-row items-center">
+      <div className="container mx-auto flex flex-col md:flex-row items-center mb-4 md:mb-0">
         <div className="w-full md:w-1/2 md:pl-12 mt-8 md:mt-0 text-left order-2 md:order-1">
           <h2 className="text-4xl font-bold text-white mb-4 uppercase">
             Nossos Encontros
@@ -20,7 +20,7 @@ export default function Events() {
               href="https://maps.app.goo.gl/2Evi2eEPt1t386kWA"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#51cf91] underline"
+              className="text-main-50 underline"
             >
               FEF
             </a>
@@ -30,7 +30,7 @@ export default function Events() {
 
           <p className="text-lg text-white">
             Para se manter informado sobre os eventos,{" "}
-            <span className="font-bold text-[#51cf91]">
+            <span className="font-bold text-main-50">
               {" "}
               entre no nosso grupo do WhatsApp!
             </span>

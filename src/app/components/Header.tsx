@@ -20,7 +20,7 @@ export default function Header() {
         <nav>
           <button
             onClick={handleClick}
-            className="flex items-center space-x-2 bg-transparent text-white border-2 border-[#4A3D8D] rounded-full px-4 py-2 hover:bg-[#4A3D8D] hover:text-white transition"
+            className="flex items-center space-x-2 bg-transparent text-white border-2 border-main-100 rounded-full px-4 py-2 hover:bg-main-100 hover:text-white transition"
           >
             <figure>
             <FontAwesomeIcon icon={faSignIn} className="w-4 h-4" />
