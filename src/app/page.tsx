@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <div>
       <Hero />
-      {/* <About />
-      <Events /> */}
       <SocialLinks />
+      <About />
+      <Events /> 
     </div>
   )
 }
