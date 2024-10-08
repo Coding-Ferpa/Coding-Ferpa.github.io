@@ -22,7 +22,7 @@ export default function SocialLinks() {
   ];
 
   return (
-    <div className="flex justify-center p-6 space-x-4 sm:space-x-6">
+    <div className="flex justify-center p-6 pb-20 space-x-4 sm:space-x-6">
       {socialMedia.map((platform) => (
         <a
           key={platform.name}

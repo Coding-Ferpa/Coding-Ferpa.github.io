@@ -5,7 +5,7 @@ export default function Events() {
   return (
     <section id="events" className="bg-black">
       <div className="container mx-auto flex flex-col md:flex-row items-center mb-4 md:mb-0">
-        <div className="w-full md:w-1/2 md:pl-12 mt-8 md:mt-0 text-left order-2 md:order-1">
+        <div className="md:w-1/2 w-full md:pl-12 mt-8 md:mt-0 text-left order-2 md:order-1">
           <h2 className="text-4xl font-bold text-white mb-4 uppercase">
             Nossos Encontros
           </h2>
@@ -36,7 +36,7 @@ export default function Events() {
             </span>
           </p>
         </div>
-        <div className="w-full md:w-1/2 order-1 md:order-2">
+        <div className="lg:w-2/3 sm:w-1/2">
           <Image
             src={icon}
             alt="Encontro da Comunidade"
