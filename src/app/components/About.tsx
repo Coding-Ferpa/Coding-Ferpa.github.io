@@ -5,7 +5,8 @@ export default function About() {
   return (
     <section id="about" className="py-20 pb-0 bg-black">
       <div className="container mx-auto flex flex-col md:flex-row items-center">
-        <div className="lg:w-2/3 sm:w-1/2">
+        {/* Imagem ocupa 50% da largura */}
+        <div className="md:w-1/2 w-full">
           <Image
             src={logo}
             alt="Comunidade Coding Ferpa"
@@ -15,6 +16,8 @@ export default function About() {
             height={500}
           />
         </div>
+        
+        {/* Texto ocupa 50% da largura */}
         <div className="md:w-1/2 w-full md:pl-12 mt-8 md:mt-0 text-left ml-4 md:ml-0">
           <h2 className="text-4xl font-bold text-white mb-4 uppercase">
             Quem Somos
