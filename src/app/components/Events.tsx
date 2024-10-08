@@ -3,7 +3,7 @@ import icon from "../assets/icon.png";
 
 export default function Events() {
   return (
-    <section id="events" className="bg-black">
+    <section id="events" className="bg-black overflow-hidden">
       <div className="container mx-auto flex flex-col md:flex-row items-center mb-4 md:mb-0">
         <div className="md:w-1/2 w-full md:order-2 order-1">
           <Image
@@ -11,10 +11,9 @@ export default function Events() {
             alt="Encontro da Comunidade"
             className="rounded-lg shadow-lg"
             layout="responsive"
-            width={500}
-            height={500}
           />
         </div>
+
         <div className="md:w-1/2 w-full md:pl-12 mt-8 md:mt-0 text-left md:order-1 order-2">
           <h2 className="text-4xl font-bold text-white mb-4 uppercase">
             Nossos Encontros
