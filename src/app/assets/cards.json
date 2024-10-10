@@ -4,13 +4,13 @@
             "id": 1,
             "title": "Coding Ferpa, o prefácio",
             "speaker": "Gustavo Bizo",
-            "description": "Gênesis da computação no interior de São Paulo"
+            "description": "Gênesis da comunidade tech no interior de São Paulo"
         },
         {
             "id": 2,
             "title": "ClojureScript e por quais motivos usar no front-end? (e por que tantos parênteses)",
             "speaker": "Guto Lanjoni",
-            "description": "Gênesis da computação no interior de São Paulo"
+            "description": "Criar interfaces web cada vez mais reativas tem sido uma aventura inusitada para diversos desenvolvedores, mas, já pensou neste mesmo processo utilizando linguagens de programação funcional? Ainda melhor: com um dialeto de LISP? Nesta apresentação você conhecerá ClojureScript e como desenvolver sua primeira interface reativa com Helix, que integra tudo de melhor que temos do React de maneira mágica!"
         },
         {
             "id": 3,
