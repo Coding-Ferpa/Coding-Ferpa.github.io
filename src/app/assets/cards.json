@@ -1,0 +1,22 @@
+{
+    "talks": [
+        {
+            "id": 1,
+            "title": "Coding Ferpa, o prefácio",
+            "speaker": "Gustavo Bizo",
+            "description": "Gênesis da comunidade tech no interior de São Paulo"
+        },
+        {
+            "id": 2,
+            "title": "ClojureScript e por quais motivos usar no front-end? (e por que tantos parênteses)",
+            "speaker": "Guto Lanjoni",
+            "description": "Criar interfaces web cada vez mais reativas tem sido uma aventura inusitada para diversos desenvolvedores, mas, já pensou neste mesmo processo utilizando linguagens de programação funcional? Ainda melhor: com um dialeto de LISP? Nesta apresentação você conhecerá ClojureScript e como desenvolver sua primeira interface reativa com Helix, que integra tudo de melhor que temos do React de maneira mágica!"
+        },
+        {
+            "id": 3,
+            "title": "Navegando na Complexidade: Como Gerenciar o Conhecimento em Ambientes de Desenvolvimento",
+            "speaker": "Josué Teodoro Moreira",
+            "description": "O gerenciamento do conhecimento em ambientes de desenvolvimento complexos será o foco da discussão. Serão abordadas estratégias práticas para identificar, compartilhar e aplicar conhecimento técnico de forma eficaz. Os desafios desse processo também serão explorados, com o objetivo de oferecer insights que ajudem equipes a se tornarem mais colaborativas e eficientes, resultando em melhorias significativas na qualidade dos resultados."
+        }
+    ]
+}
