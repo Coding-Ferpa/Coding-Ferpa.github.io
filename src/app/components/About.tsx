@@ -9,7 +9,7 @@ export default function About() {
           <Image
             src={logo}
             alt="Comunidade Coding Ferpa"
-            className="w-full rounded-lg shadow-lg"
+            className="w-full shadow-lg"
             layout="responsive"
             width={500}
             height={500}

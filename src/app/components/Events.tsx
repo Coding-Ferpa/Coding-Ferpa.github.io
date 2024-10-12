@@ -1,5 +1,5 @@
 import Image from "next/image";
-import icon from "../assets/icon.png";
+import icon from "../assets/talk.jpeg";
 
 export default function Events() {
   return (
@@ -9,8 +9,10 @@ export default function Events() {
           <Image
             src={icon}
             alt="Encontro da Comunidade"
-            className="rounded-lg shadow-lg"
+            className="w-full shadow-lg"
             layout="responsive"
+            width={500}
+            height={500}
           />
         </div>
 

@@ -6,7 +6,7 @@ import Footer from "@/app/components/Footer";
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "700"] });
 
 export const metadata = {
-  title: "Coding Ferpa",
+  title: "Coding Ferpa | Além do código",
   description: "Comunidade de tecnologia para jovens em Fernandópolis",
 };
 
