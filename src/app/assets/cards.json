@@ -2,21 +2,21 @@
     "talks": [
         {
             "id": 1,
-            "title": "Conversando no terminal: Integrando um chat de IA em CLI",
-            "speaker": "Fabrício Tiago Arantes",
-            "description": ""
+            "title": "Analise de dados com CSGO: Modelos Probabilísticos e Desenvolvimento Mobile com ClojureScript",
+            "speaker": "Felipe Gomes",
+            "description": "Um projeto universitário sobre um modelo probabilistico que prediz resultados em partidas de counter strike, com uma breve introdução a aplicações mobile com cljs, REST APIs, probabilidade e estatística"
         },
         {
             "id": 2,
-            "title": "Temporalidade com Datomic, o banco de dados funcional e “imutável”",
-            "speaker": "Guto Lanjoni",
-            "description": "Conceitos sobre temporalidade em bancos de dados complexos e controle de transações tem se tornado tópicos cada vez mais importantes, por isso, o intuito da apresentação é demonstrar qual a aplicabilidade direta de bancos de dados temporais, mostrando um pouco sobre o funcionamento do Datomic!"
+            "title": "Java e IA, LangChain4j",
+            "speaker": "Fernando Ollé",
+            "description": "Java é uma das melhores escolhas para integrações com IA no backend"
         },
         {
             "id": 3,
-            "title": "UNIX na prática",
-            "speaker": "Andre Angeluci",
-            "description": ""
+            "title": "Desafios de Como Ser um Bom Desenvolvedor na Geracao de IA",
+            "speaker": "Mateus Pinheiro",
+            "description": "Em minha palestra falarei sobre os desafios que novos desenvolvedores encontram no dia a dia para se destacarem em suas carreiras. E como este caminho tem dificultado (ou ajudado) os desenvolvedores à atingirem seus objetivos profissionais."
         }
     ]
 }
